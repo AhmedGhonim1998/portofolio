@@ -40,6 +40,16 @@ h5{
     font-size: 1rem;
     color: var(--gray_color);
 }
+.btn-primary{
+    background-color: var(--light_gray_color);
+    color: var(--gray_color);
+    border: none;
+    transition: .2s;
+    width: 190px;
+}
+.btn-primary:hover{
+    background: var(--light_blue_color);
+}
 /*********************************************glopal*********************************************/
 /********************************start navbar styles*********************************************/
 .nav_img{
@@ -75,7 +85,12 @@ h5{
 }
 /********************************end name styles*********************************************/
 /********************************start about us styles***************************************/
-
+.btn-primary>a{
+    text-decoration: none;
+}
+.btn-primary>a:hover{
+    color: var(--gray_color);
+}
 /********************************end about us styles*****************************************/
 
 
