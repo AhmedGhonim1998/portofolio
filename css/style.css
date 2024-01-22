@@ -33,6 +33,16 @@ p , ol{
 ol{
     font-size: 1.5rem;
 }
+.progress{
+    height: 3px;
+}
+.progress-bar{
+    background: var(--light_blue_color) !important;
+}
+h5{
+    font-size: 1rem;
+    color: var(--gray_color);
+}
 /*********************************************glopal*********************************************/
 /********************************start navbar styles*********************************************/
 .nav_img{
