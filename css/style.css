@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --light_blue_color:#17bed2;
+    --gray_color:#515769;
+    --light_gray_color:#f3f4f5;
+    --bg_color:#fafafa;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 5000px;
+}
+/*********************************************glopal*********************************************/
+a{
+    color: var(--gray_color);
+    font-weight: bold;
+    transition: .2s;
+}
+a:hover{
+    color: var(--light_blue_color);
+}
+/*********************************************glopal*********************************************/
+/********************************start navbar styles*********************************************/
+.nav_img{
+    width: 25%;
+}
+.navbar{
+    background-color: white !important;
+}
+/**********************************end navbar styles*********************************************/
+/********************************start name styles*********************************************/
+.name_cons_col{
+    width: 10%;
+    cursor: pointer;
+}
+.name{
+    background-color: var(--bg_color);
+}
+.social_icons{
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: var(--gray_color);
+    background: white;
+    border-radius: 50%;
+    padding: 11px;
+    transition: .2s;
+    text-align: center;
+}
+.social_icons:hover{
+    background-color: var(--gray_color);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************responsive*********************************************/
+@media (max-width:700px) {
+    .name_flex{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15%;
+    }
+    .right_name{
+        width: 100%;
+    }
+    .right_name img{
+        width: 100%;
+    }
+}
