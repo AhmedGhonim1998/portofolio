@@ -5,6 +5,7 @@
     --gray_color:#515769;
     --light_gray_color:#f3f4f5;
     --bg_color:#fafafa;
+    --par_color:#a6a7aa;
 }
 body{
     box-sizing: border-box;
@@ -20,10 +21,17 @@ a{
 a:hover{
     color: var(--light_blue_color);
 }
+h1{
+    color: var(--gray_color);
+    width: 100%;
+}
+p{
+    color: var(--par_color);
+}
 /*********************************************glopal*********************************************/
 /********************************start navbar styles*********************************************/
 .nav_img{
-    width: 25%;
+    width: 10%;
 }
 .navbar{
     background-color: white !important;
@@ -52,6 +60,7 @@ a:hover{
     background-color: var(--gray_color);
     color: white;
 }
+/********************************ed=nd name styles*********************************************/
 
 
 
@@ -91,5 +100,12 @@ a:hover{
     }
     .right_name img{
         width: 100%;
+    }
+    .nav_content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav_img{
+        width: 30%;
     }
 }
