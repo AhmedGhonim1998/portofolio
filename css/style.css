@@ -50,6 +50,9 @@ h5{
 .btn-primary:hover{
     background: var(--light_blue_color);
 }
+h3{
+    color: var(--gray_color);
+}
 /*********************************************glopal*********************************************/
 /********************************start navbar styles*********************************************/
 .nav_img{
@@ -110,6 +113,21 @@ h5{
 .card:hover h3 ,.card:hover p{
     color: white;
 }
+/********************************end experince styles**************************************/
+/*******************************start latest product styles**************************************/
+.card-body a:hover{
+    color: var(--gray_color);
+}
+.card-body a{
+    text-decoration: none;
+}
+.digigram_img{
+    width: 120px !important;
+}
+.inance_img{
+    width: 125px !important;
+}
+/*******************************end latest product styles**************************************/
 
 
 
