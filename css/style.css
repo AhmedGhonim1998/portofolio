@@ -92,6 +92,25 @@ h5{
     color: var(--gray_color);
 }
 /********************************end about us styles*****************************************/
+/********************************start experince styles**************************************/
+.experience{
+    background-color: var(--bg_color);
+}
+.card img{
+    width: 150px;
+}
+.card{
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: var(--light_blue_color);
+}
+.card:hover h3 ,.card:hover p{
+    color: white;
+}
+
 
 
 
