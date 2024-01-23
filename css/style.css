@@ -52,6 +52,7 @@ h5{
 }
 h3{
     color: var(--gray_color);
+    font-weight: bold;
 }
 /*********************************************glopal*********************************************/
 /********************************start navbar styles*********************************************/
@@ -128,6 +129,15 @@ h3{
     width: 125px !important;
 }
 /*******************************end latest product styles**************************************/
+/*******************************start display img styles**************************************/
+.promo-banner{
+    background-image: url(../img/1920x1080/01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*******************************end display img styles***************************************/
+
 
 
 
