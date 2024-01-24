@@ -26,7 +26,9 @@ h1 , h2{
     color: var(--gray_color);
     width: 100%;
 }
-
+h4{
+    color: var(--gray_color);
+}
 p , ol{
     color: var(--par_color);
 }
@@ -156,6 +158,19 @@ h3{
     font-size: 1.2rem;
 }
 /*******************************end display img styles***************************************/
+/*******************************start contact me styles**************************************/
+.contact_col a{
+    text-decoration: none;
+    transition: .2s;
+    color: var(--par_color);
+    font-weight: 400;
+    font-size: .9rem;
+}
+.contact_col a:hover{
+    text-decoration: underline;
+}
+/*********************************end contact me styles**************************************/
+
 
 
 
