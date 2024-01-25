@@ -242,3 +242,9 @@ h3{
         width: 30%;
     }
 }
+@media (max-width:800px) {
+    
+    .name_flex img{
+        width: 70%;
+    }
+}
