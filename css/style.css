@@ -10,7 +10,6 @@
 body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    height: 5000px;
 }
 /*********************************************glopal*********************************************/
 a{
@@ -165,6 +164,9 @@ h3{
     color: var(--par_color);
     font-weight: 400;
     font-size: .9rem;
+}
+.contact_me{
+    background-color: var(--bg_color);
 }
 .contact_col a:hover{
     text-decoration: underline;
